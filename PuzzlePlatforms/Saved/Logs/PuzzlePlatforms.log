@@ -262,3 +262,541 @@ LogInit: Object subsystem initialized
 [2017.11.21-06.22.32:310][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
 [2017.11.21-06.22.32:310][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
 [2017.11.21-06.22.32:313][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.21-07.18.35:348][233]LogSlate: Took 0.000526 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.21-07.18.35:469][233]LogSlate: Took 0.015554 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.21-07.19.14:213][796]Running E:/EpicGames/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/PuzzlePlatforms.uproject" -game -rocket -progress
+[2017.11.21-07.19.14:517][796]Discovering modules, targets and source code for project...
+[2017.11.21-07.19.17:842][796]LogSlate: Took 0.000397 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.21-07.19.20:576][796]LogHotReload: Recompiling module PuzzlePlatforms...
+[2017.11.21-07.19.20:585][796]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2017.11.21-07.19.20:689][796]Candidate modules for hot reload:
+[2017.11.21-07.19.20:689][796]  PuzzlePlatforms
+[2017.11.21-07.19.20:690][796]Launching UnrealBuildTool... [E:/EpicGames/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PuzzlePlatforms -Module PuzzlePlatforms Win64 Development -editorrecompile -canskiplink "D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/PuzzlePlatforms.uproject" ]
+[2017.11.21-07.20.29:334][796]Compiling game modules for hot reload
+Performing full C++ include scan (no include cache file)
+Parsing headers for PuzzlePlatformsEditor
+  Running UnrealHeaderTool "D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\PuzzlePlatforms.uproject" "D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\PuzzlePlatformsEditor\Development\PuzzlePlatformsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for PuzzlePlatformsEditor in 7.1418335 seconds
+Performing 9 actions (4 in parallel)
+[2/9] Resource ModuleVersionResource.rc.inl
+[3/9] Resource PCLaunch.rc
+SharedPCH.Engine.cpp
+MovingPlatform.cpp
+MovingPlatform.gen.cpp
+PuzzlePlatforms.init.gen.cpp
+PuzzlePlatforms.cpp
+[8/9] Link UE4Editor-PuzzlePlatforms.dll
+[9/9] Link UE4Editor-PuzzlePlatforms.lib
+   Creating library D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms.lib and object D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms.exp
+   Creating library D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms.suppressed.lib and object D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms.suppressed.exp
+Total build time: 68.48 seconds (Local executor: 51.88 seconds)
+
+[2017.11.21-07.20.29:334][796]CompilerResultsLog: New page: Compilation - Nov 20, 2017, 9:20:29 PM
+[2017.11.21-07.20.29:335][796]CompilerResultsLog: Compiling game modules for hot reload
+[2017.11.21-07.20.29:335][796]CompilerResultsLog: Performing full C++ include scan (no include cache file)
+[2017.11.21-07.20.29:335][796]CompilerResultsLog: Parsing headers for PuzzlePlatformsEditor
+[2017.11.21-07.20.29:335][796]CompilerResultsLog:   Running UnrealHeaderTool "D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\PuzzlePlatforms.uproject" "D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\PuzzlePlatformsEditor\Development\PuzzlePlatformsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.11.21-07.20.29:335][796]CompilerResultsLog: Reflection code generated for PuzzlePlatformsEditor in 7.1418335 seconds
+[2017.11.21-07.20.29:335][796]CompilerResultsLog: Performing 9 actions (4 in parallel)
+[2017.11.21-07.20.29:335][796]CompilerResultsLog: [2/9] Resource ModuleVersionResource.rc.inl
+[2017.11.21-07.20.29:335][796]CompilerResultsLog: [3/9] Resource PCLaunch.rc
+[2017.11.21-07.20.29:335][796]CompilerResultsLog: SharedPCH.Engine.cpp
+[2017.11.21-07.20.29:335][796]CompilerResultsLog: MovingPlatform.cpp
+[2017.11.21-07.20.29:335][796]CompilerResultsLog: MovingPlatform.gen.cpp
+[2017.11.21-07.20.29:335][796]CompilerResultsLog: PuzzlePlatforms.init.gen.cpp
+[2017.11.21-07.20.29:335][796]CompilerResultsLog: PuzzlePlatforms.cpp
+[2017.11.21-07.20.29:335][796]CompilerResultsLog: [8/9] Link UE4Editor-PuzzlePlatforms.dll
+[2017.11.21-07.20.29:335][796]CompilerResultsLog: [9/9] Link UE4Editor-PuzzlePlatforms.lib
+[2017.11.21-07.20.29:335][796]CompilerResultsLog:    Creating library D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms.lib and object D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms.exp
+[2017.11.21-07.20.29:335][796]CompilerResultsLog:    Creating library D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms.suppressed.lib and object D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms.suppressed.exp
+[2017.11.21-07.20.29:335][796]CompilerResultsLog: Total build time: 68.48 seconds (Local executor: 51.88 seconds)
+[2017.11.21-07.20.29:348][796]LogMainFrame: MainFrame: Module compiling took 68.763 seconds
+[2017.11.21-07.20.29:348][796]Reloading module PuzzlePlatforms after successful compile.
+[2017.11.21-07.20.29:403][796]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.11.21-07.20.29:426][796]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2389 classes and 506 folders.
+[2017.11.21-07.20.38:323][109]LogVSAccessor: Warning: Couldn't goto line number '0' in 'D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/Source/PuzzlePlatforms/MovingPlatform.h'
+[2017.11.21-07.20.38:526][109]LogVSAccessor: Warning: Couldn't goto line number '0' in 'D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/Source/PuzzlePlatforms/MovingPlatform.cpp'
+[2017.11.21-07.27.43:723][382]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.21-07.27.43:723][382]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.21-07.27.44:265][382]Candidate modules for hot reload:
+[2017.11.21-07.27.44:265][382]  PuzzlePlatforms
+[2017.11.21-07.27.44:265][382]Launching UnrealBuildTool... [E:/EpicGames/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PuzzlePlatforms -ModuleWithSuffix PuzzlePlatforms 1107 Win64 Development -editorrecompile -canskiplink "D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/PuzzlePlatforms.uproject" ]
+[2017.11.21-07.27.44:266][382]Warning: Starting HotReload took  0.5s.
+[2017.11.21-07.28.05:491][675]CompilerResultsLog: New page: Compilation - Nov 20, 2017, 9:28:05 PM
+[2017.11.21-07.28.05:491][675]CompilerResultsLog: Compiling game modules for hot reload
+[2017.11.21-07.28.05:491][675]CompilerResultsLog: Parsing headers for PuzzlePlatformsEditor
+[2017.11.21-07.28.05:491][675]CompilerResultsLog:   Running UnrealHeaderTool "D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\PuzzlePlatforms.uproject" "D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\PuzzlePlatformsEditor\Development\PuzzlePlatformsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.11.21-07.28.05:491][675]CompilerResultsLog: Reflection code generated for PuzzlePlatformsEditor in 11.9027138 seconds
+[2017.11.21-07.28.05:491][675]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2017.11.21-07.28.05:491][675]CompilerResultsLog: MovingPlatform.cpp
+[2017.11.21-07.28.05:491][675]CompilerResultsLog: MovingPlatform.gen.cpp
+[2017.11.21-07.28.05:491][675]CompilerResultsLog: [3/4] Link UE4Editor-PuzzlePlatforms-1107.dll
+[2017.11.21-07.28.05:491][675]CompilerResultsLog: [4/4] Link UE4Editor-PuzzlePlatforms-1107.lib
+[2017.11.21-07.28.05:491][675]CompilerResultsLog:    Creating library D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms-1107.lib and object D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms-1107.exp
+[2017.11.21-07.28.05:491][675]CompilerResultsLog:    Creating library D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms-1107.suppressed.lib and object D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms-1107.suppressed.exp
+[2017.11.21-07.28.05:491][675]CompilerResultsLog: Total build time: 20.98 seconds (Local executor: 3.36 seconds)
+[2017.11.21-07.28.05:491][675]LogMainFrame: MainFrame: Module compiling took 21.240 seconds
+[2017.11.21-07.28.05:565][675]LogHotReload: Re-instancing MovingPlatform after hot-reload.
+[2017.11.21-07.28.05:824][675]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.11.21-07.28.05:825][675]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.11.21-07.28.05:897][675]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 2389 classes and 506 folders.
+[2017.11.21-07.28.05:897][675]Display: HotReload took 22.2s.
+[2017.11.21-07.29.20:849][457]LogEditor: Attempting to add actor of class 'MovingPlatform' to level at -290.00,-1140.00,130.00
+[2017.11.21-07.29.22:000][553]LogEditor: Attempting to add actor of class 'MovingPlatform' to level at 970.00,1360.00,130.00
+[2017.11.21-07.29.31:891][369]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.11.21-07.29.45:610][461]LogSlate: Took 0.013056 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.21-07.29.58:021][516]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.21-07.31.19:303][381]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.21-07.31.31:108][377]Cmd: TRANSACTION UNDO
+[2017.11.21-07.31.31:108][377]LogEditorTransaction: Undo Move Actors
+[2017.11.21-07.32.21:690][586]Candidate modules for hot reload:
+[2017.11.21-07.32.21:690][586]  PuzzlePlatforms
+[2017.11.21-07.32.21:690][586]Launching UnrealBuildTool... [E:/EpicGames/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PuzzlePlatforms -ModuleWithSuffix PuzzlePlatforms 9003 Win64 Development -editorrecompile -canskiplink "D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/PuzzlePlatforms.uproject" ]
+[2017.11.21-07.32.21:691][586]Warning: Starting HotReload took  0.5s.
+[2017.11.21-07.32.26:868][758]CompilerResultsLog: New page: Compilation - Nov 20, 2017, 9:32:26 PM
+[2017.11.21-07.32.26:868][758]CompilerResultsLog: Compiling game modules for hot reload
+[2017.11.21-07.32.26:868][758]CompilerResultsLog: Target is up to date
+[2017.11.21-07.32.26:868][758]CompilerResultsLog: Total build time: 4.79 seconds (NoActionsToExecute executor: 0.01 seconds)
+[2017.11.21-07.32.26:868][758]LogMainFrame: MainFrame: Module compiling took 5.189 seconds
+[2017.11.21-07.32.26:915][758]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2389 classes and 506 folders.
+[2017.11.21-07.32.26:915][758]Display: HotReload took  5.7s.
+[2017.11.21-07.32.46:869][817]LogSavePackage: Save=169.53ms
+[2017.11.21-07.32.46:869][817]LogSavePackage: Moving 'D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/Saved/ThirdPersonExampleMap_Auto18110A4F0461907EF33322E991166FFB7.tmp' to 'D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2017.11.21-07.32.46:870][817]LogSavePackage: Display: Finished SavePackage D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2017.11.21-07.32.46:875][817]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.241
+[2017.11.21-07.32.46:875][817]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.241
+[2017.11.21-07.36.30:869][485]Candidate modules for hot reload:
+[2017.11.21-07.36.30:869][485]  PuzzlePlatforms
+[2017.11.21-07.36.30:869][485]Launching UnrealBuildTool... [E:/EpicGames/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PuzzlePlatforms -ModuleWithSuffix PuzzlePlatforms 25 Win64 Development -editorrecompile -canskiplink "D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/PuzzlePlatforms.uproject" ]
+[2017.11.21-07.36.30:870][485]Warning: Starting HotReload took  1.4s.
+[2017.11.21-07.36.52:380][828]CompilerResultsLog: New page: Compilation - Nov 20, 2017, 9:36:52 PM
+[2017.11.21-07.36.52:380][828]CompilerResultsLog: Compiling game modules for hot reload
+[2017.11.21-07.36.52:381][828]CompilerResultsLog: Parsing headers for PuzzlePlatformsEditor
+[2017.11.21-07.36.52:381][828]CompilerResultsLog:   Running UnrealHeaderTool "D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\PuzzlePlatforms.uproject" "D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\PuzzlePlatformsEditor\Development\PuzzlePlatformsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.11.21-07.36.52:381][828]CompilerResultsLog: Reflection code generated for PuzzlePlatformsEditor in 12.3698659 seconds
+[2017.11.21-07.36.52:381][828]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2017.11.21-07.36.52:381][828]CompilerResultsLog: MovingPlatform.cpp
+[2017.11.21-07.36.52:381][828]CompilerResultsLog: [2/3] Link UE4Editor-PuzzlePlatforms-25.dll
+[2017.11.21-07.36.52:381][828]CompilerResultsLog: [3/3] Link UE4Editor-PuzzlePlatforms-25.lib
+[2017.11.21-07.36.52:381][828]CompilerResultsLog:    Creating library D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms-25.lib and object D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms-25.exp
+[2017.11.21-07.36.52:381][828]CompilerResultsLog:    Creating library D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms-25.suppressed.lib and object D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms-25.suppressed.exp
+[2017.11.21-07.36.52:381][828]CompilerResultsLog: Total build time: 20.68 seconds (Local executor: 2.36 seconds)
+[2017.11.21-07.36.52:381][828]LogMainFrame: MainFrame: Module compiling took 21.524 seconds
+[2017.11.21-07.36.52:448][828]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.11.21-07.36.52:450][828]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.11.21-07.36.52:505][828]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2389 classes and 506 folders.
+[2017.11.21-07.36.52:505][828]Display: HotReload took 23.0s.
+[2017.11.21-07.39.12:934][250]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.11.21-07.39.12:934][250]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2017.11.21-07.39.12:945][250]Candidate modules for hot reload:
+[2017.11.21-07.39.12:945][250]  PuzzlePlatforms
+[2017.11.21-07.39.12:945][250]Launching UnrealBuildTool... [E:/EpicGames/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PuzzlePlatforms -ModuleWithSuffix PuzzlePlatforms 2193 Win64 Development -editorrecompile -canskiplink "D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/PuzzlePlatforms.uproject" ]
+[2017.11.21-07.39.12:946][250]Warning: Starting HotReload took  0.0s.
+[2017.11.21-07.39.33:983][941]CompilerResultsLog: New page: Compilation - Nov 20, 2017, 9:39:33 PM
+[2017.11.21-07.39.33:983][941]CompilerResultsLog: Compiling game modules for hot reload
+[2017.11.21-07.39.33:983][941]CompilerResultsLog: Parsing headers for PuzzlePlatformsEditor
+[2017.11.21-07.39.33:983][941]CompilerResultsLog:   Running UnrealHeaderTool "D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\PuzzlePlatforms.uproject" "D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\PuzzlePlatformsEditor\Development\PuzzlePlatformsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.11.21-07.39.33:983][941]CompilerResultsLog: Reflection code generated for PuzzlePlatformsEditor in 12.0414152 seconds
+[2017.11.21-07.39.33:983][941]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2017.11.21-07.39.33:983][941]CompilerResultsLog: MovingPlatform.gen.cpp
+[2017.11.21-07.39.33:983][941]CompilerResultsLog: MovingPlatform.cpp
+[2017.11.21-07.39.33:983][941]CompilerResultsLog: PuzzlePlatforms.init.gen.cpp
+[2017.11.21-07.39.33:983][941]CompilerResultsLog: [4/5] Link UE4Editor-PuzzlePlatforms-2193.dll
+[2017.11.21-07.39.33:983][941]CompilerResultsLog: [5/5] Link UE4Editor-PuzzlePlatforms-2193.lib
+[2017.11.21-07.39.33:983][941]CompilerResultsLog:    Creating library D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms-2193.lib and object D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms-2193.exp
+[2017.11.21-07.39.33:983][941]CompilerResultsLog:    Creating library D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms-2193.suppressed.lib and object D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms-2193.suppressed.exp
+[2017.11.21-07.39.33:983][941]CompilerResultsLog: Total build time: 20.61 seconds (Local executor: 2.81 seconds)
+[2017.11.21-07.39.33:983][941]LogMainFrame: MainFrame: Module compiling took 21.049 seconds
+[2017.11.21-07.39.34:047][941]LogClass: Could not find existing class MovingPlatform in package /Script/PuzzlePlatforms for HotReload, assuming new class
+[2017.11.21-07.39.34:062][941]LogHotReload: Re-instancing MovingPlatform after hot-reload.
+[2017.11.21-07.39.34:180][941]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.11.21-07.39.34:182][941]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.11.21-07.39.34:192][941]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2389 classes and 506 folders.
+[2017.11.21-07.39.34:193][941]Display: HotReload took 21.3s.
+[2017.11.21-07.39.39:120][366]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.21-07.39.39:160][366]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.21-07.39.39:160][366]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.21-07.39.39:161][366]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 20, 2017, 9:39:39 PM)
+[2017.11.21-07.39.39:161][366]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.21-07.39.39:183][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021687s)
+[2017.11.21-07.39.39:184][366]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.21-07.39.39:185][366]LogPlayLevel: PIE: World Init took: (0.001956s)
+[2017.11.21-07.39.39:185][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024059s)
+[2017.11.21-07.39.39:215][366]LogInit: XAudio2 using 'Speakers (2- SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.21-07.39.39:221][366]LogInit: FAudioDevice initialized.
+[2017.11.21-07.39.39:279][366]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.21-07.39.39:283][366]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.21-02.39.39
+[2017.11.21-07.39.39:284][366]LogWorld: Bringing up level for play took: 0.002676
+[2017.11.21-07.39.39:323][366]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0015 seconds. Added 11 classes and 0 folders.
+[2017.11.21-07.39.39:324][366]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.112
+[2017.11.21-07.39.39:324][366]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.21-07.40.36:306][948]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.21-07.40.36:354][948]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.21-07.40.42:307][574]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.21-07.40.43:497][689]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.21-07.40.43:505][689]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.21-07.40.43:506][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.21-07.40.43:514][689]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 20, 2017, 9:40:43 PM)
+[2017.11.21-07.40.43:514][689]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2017.11.21-07.40.43:533][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018078s)
+[2017.11.21-07.40.43:533][689]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.21-07.40.43:533][689]LogPlayLevel: PIE: World Init took: (0.000890s)
+[2017.11.21-07.40.43:534][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019234s)
+[2017.11.21-07.40.43:554][689]LogInit: XAudio2 using 'Speakers (2- SteelSeries Siberia 350)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.21-07.40.43:559][689]LogInit: FAudioDevice initialized.
+[2017.11.21-07.40.43:589][689]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.21-07.40.43:591][689]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.21-02.40.43
+[2017.11.21-07.40.43:592][689]LogWorld: Bringing up level for play took: 0.002035
+[2017.11.21-07.40.43:592][689]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.21-07.40.43:593][689]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2017.11.21-07.40.43:593][689]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.21-07.40.43:593][689]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.11.21-07.40.43:594][689]LogInit: WinSock: I am Frankenstein-PC (192.168.0.173:0)
+[2017.11.21-07.40.43:594][689]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.21-07.40.43:594][689]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2017.11.21-07.40.43:594][689]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap 0.382
+[2017.11.21-07.40.43:603][689]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 20, 2017, 9:40:43 PM)
+[2017.11.21-07.40.43:669][689]LogNet: Browse: 127.0.0.1//Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2017.11.21-07.40.43:669][689]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.21-07.40.43:669][689]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2017.11.21-07.40.43:669][689]LogTemp: Display: ParseSettings for PendingNetDriver
+[2017.11.21-07.40.43:669][689]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.11.21-07.40.43:669][689]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.21-07.40.43:669][689]LogNet: Game client on port 7777, rate 10000
+[2017.11.21-07.40.43:674][689]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap 0.462
+[2017.11.21-07.40.43:688][689]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.21-07.40.43:689][689]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50657
+[2017.11.21-07.40.43:689][689]LogHandshake: SendConnectChallenge. Timestamp: 0.008898, Cookie: 062118117058229109046108210239226136236099179069255056028058
+[2017.11.21-07.40.43:705][689]LogHandshake: SendChallengeResponse. Timestamp: 0.008898, Cookie: 062118117058229109046108210239226136236099179069255056028058
+[2017.11.21-07.40.43:764][690]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50657
+[2017.11.21-07.40.43:764][690]LogHandshake: SendChallengeAck. InCookie: 062118117058229109046108210239226136236099179069255056028058
+[2017.11.21-07.40.43:764][690]LogNet: Server accepting post-challenge connection from: 127.0.0.1:50657
+[2017.11.21-07.40.43:764][690]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.21-07.40.43:765][690]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 11/21/17 02:40:43, [UNetConnection] RemoteAddr: 127.0.0.1:50657, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.11.21-07.40.43:765][690]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:50657, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.11.21-07.40.43:765][690]LogNetVersion: PuzzlePlatforms 1.0.0.0, NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3024838196)
+[2017.11.21-07.40.43:765][690]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2017.11.21-07.40.43:774][691]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2017.11.21-07.40.43:774][691]LogNet: Remote platform little endian=1
+[2017.11.21-07.40.43:774][691]LogNet: This platform little endian=1
+[2017.11.21-07.40.43:782][692]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap userId: Invalid
+[2017.11.21-07.40.43:783][692]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2017.11.21-07.40.43:784][692]LogLoad: LoadMap: 127.0.0.1//Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2017.11.21-07.40.43:792][692]Cmd: MEM
+[2017.11.21-07.40.43:800][692]LogMemory: Platform Memory Stats for Windows
+[2017.11.21-07.40.43:800][692]LogMemory: Process Physical Memory: 564.06 MB used, 1231.39 MB peak
+[2017.11.21-07.40.43:800][692]LogMemory: Process Virtual Memory: 2271.66 MB used, 2365.69 MB peak
+[2017.11.21-07.40.43:800][692]LogMemory: Physical Memory: 8241.71 MB used,  8085.17 MB free, 16326.88 MB total
+[2017.11.21-07.40.43:800][692]LogMemory: Virtual Memory: 3183.21 MB used,  8085.17 MB free, 134217728.00 MB total
+[2017.11.21-07.40.43:800][692]LogMemory: 
+[2017.11.21-07.40.43:800][692]Allocator Stats for TBB: (not implemented)
+[2017.11.21-07.40.43:817][692]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.21-07.40.43:817][692]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.21-07.40.43:821][692]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.21-02.40.43
+[2017.11.21-07.40.43:821][692]LogWorld: Bringing up level for play took: 0.003023
+[2017.11.21-07.40.43:821][692]LogLoad: Took 0.037660 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2017.11.21-07.40.43:835][693]LogNet: Client netspeed is 10000
+[2017.11.21-07.40.43:835][693]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?SplitscreenCount=1
+[2017.11.21-07.40.43:837][693]LogNet: Join succeeded: 258
+[2017.11.21-07.41.14:242][171]LogCharacterMovement: ThirdPersonCharacter_C_0 is stuck and failed to move! Velocity: X=66.26 Y=596.32 Z=0.00 Location: X=5.28 Y=1009.30 Z=227.35 Normal: X=0.00 Y=0.00 Z=-1.00 PenetrationDepth:61.347 Actor:MovingPlatform_1 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2017.11.21-07.41.46:430][509]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.21-07.41.46:546][509]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.21-07.41.46:558][509]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:50657, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2017.11.21-07.41.46:558][509]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:50657, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.11.21-07.41.46
+[2017.11.21-07.41.46:558][509]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:50657, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2017.11.21-07.41.46:558][509]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2017.11.21-07.41.46:558][509]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.11.21-07.41.46
+[2017.11.21-07.41.46:558][509]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2017.11.21-07.41.46:561][509]LogExit: GameNetDriver None shut down
+[2017.11.21-07.41.46:561][509]LogExit: GameNetDriver None shut down
+[2017.11.21-07.44.10:507][523]LogSavePackage: Save=77.79ms
+[2017.11.21-07.44.10:507][523]LogSavePackage: Moving 'D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/Saved/ThirdPersonExampleMapC9EB9558488B9CF1AC4D57AC54973A80.tmp' to 'D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.11.21-07.44.10:514][523]LogSavePackage: Display: Finished SavePackage D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.11.21-07.44.10:529][523]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.184
+[2017.11.21-07.44.13:990][894]Cmd: QUIT_EDITOR
+[2017.11.21-07.44.14:593][894]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.21-07.44.14:631][894]LogExit: Preparing to exit.
+[2017.11.21-07.44.15:223][894]LogExit: Editor shut down
+[2017.11.21-07.44.15:246][894]LogExit: Transaction tracking system shut down
+[2017.11.21-07.44.15:408][894]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.21-07.44.15:408][894]LogDirectoryWatcher: A directory notification for 'D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/Content/' was aborted.
+[2017.11.21-07.44.15:408][894]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.21-07.44.15:408][894]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.21-07.44.15:408][894]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.21-07.44.15:478][894]LogExit: Object subsystem successfully closed.
+[2017.11.21-07.44.15:496][894]LogD3D11RHI: Shutdown
+[2017.11.21-07.44.15:496][894]LogD3D11RHI: CleanupD3DDevice
+[2017.11.21-07.44.15:558][894]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.21-07.44.15:567][894]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (539)
+[2017.11.21-07.44.15:567][894]LogModuleManager: Shutting down and abandoning module PuzzlePlatforms (537)
+[2017.11.21-07.44.15:567][894]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (535)
+[2017.11.21-07.44.15:567][894]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.11.21-07.44.15:567][894]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.11.21-07.44.15:567][894]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.11.21-07.44.15:568][894]LogDirectoryWatcher: A directory notification for 'E:/EpicGames/UE_4.17/FeaturePacks/' was aborted.
+[2017.11.21-07.44.15:573][894]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.11.21-07.44.15:573][894]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.11.21-07.44.15:573][894]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.11.21-07.44.15:573][894]LogDirectoryWatcher: A directory notification for 'D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/Content/Collections/' was aborted.
+[2017.11.21-07.44.15:573][894]LogDirectoryWatcher: A directory notification for 'D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/Content/Developers/Nazthraak/Collections/' was aborted.
+[2017.11.21-07.44.15:573][894]LogDirectoryWatcher: A directory notification for 'D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/Saved/Collections/' was aborted.
+[2017.11.21-07.44.15:573][894]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.11.21-07.44.15:574][894]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.11.21-07.44.15:574][894]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.11.21-07.44.15:574][894]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.11.21-07.44.15:574][894]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.11.21-07.44.15:574][894]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.11.21-07.44.15:574][894]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.11.21-07.44.15:574][894]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.11.21-07.44.15:574][894]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.11.21-07.44.15:574][894]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.11.21-07.44.15:574][894]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.11.21-07.44.15:574][894]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.11.21-07.44.15:574][894]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.11.21-07.44.15:574][894]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.11.21-07.44.15:574][894]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.11.21-07.44.15:574][894]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.11.21-07.44.15:575][894]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.11.21-07.44.15:575][894]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.11.21-07.44.15:575][894]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.11.21-07.44.15:575][894]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.11.21-07.44.15:575][894]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.11.21-07.44.15:575][894]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.11.21-07.44.15:575][894]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.11.21-07.44.15:575][894]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.11.21-07.44.15:575][894]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.11.21-07.44.15:575][894]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.11.21-07.44.15:575][894]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.11.21-07.44.15:575][894]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.11.21-07.44.15:575][894]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.11.21-07.44.15:575][894]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.11.21-07.44.15:575][894]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.11.21-07.44.15:575][894]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.11.21-07.44.15:575][894]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.11.21-07.44.15:575][894]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.11.21-07.44.15:575][894]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.11.21-07.44.15:575][894]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.11.21-07.44.15:575][894]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.11.21-07.44.15:575][894]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.11.21-07.44.15:985][894]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.11.21-07.44.15:985][894]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.11.21-07.44.15:985][894]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.11.21-07.44.15:985][894]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.11.21-07.44.15:985][894]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.11.21-07.44.15:985][894]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.11.21-07.44.15:985][894]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.11.21-07.44.15:985][894]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.11.21-07.44.15:985][894]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.11.21-07.44.15:985][894]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.11.21-07.44.15:985][894]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.11.21-07.44.15:985][894]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.11.21-07.44.15:985][894]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.11.21-07.44.15:985][894]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.11.21-07.44.15:985][894]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.11.21-07.44.15:985][894]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.11.21-07.44.15:985][894]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.11.21-07.44.15:985][894]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.11.21-07.44.15:985][894]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.11.21-07.44.15:986][894]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.11.21-07.44.15:986][894]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.11.21-07.44.15:986][894]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.11.21-07.44.15:986][894]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.11.21-07.44.15:986][894]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.11.21-07.44.16:049][894]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.11.21-07.44.16:049][894]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.11.21-07.44.16:049][894]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.11.21-07.44.16:049][894]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.11.21-07.44.16:049][894]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.11.21-07.44.16:049][894]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.11.21-07.44.16:049][894]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.11.21-07.44.16:049][894]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.11.21-07.44.16:049][894]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.11.21-07.44.16:049][894]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.11.21-07.44.16:049][894]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.11.21-07.44.16:050][894]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.11.21-07.44.16:051][894]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.11.21-07.44.16:051][894]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.11.21-07.44.16:051][894]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.11.21-07.44.16:051][894]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.11.21-07.44.16:051][894]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.11.21-07.44.16:051][894]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.11.21-07.44.16:051][894]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.11.21-07.44.16:051][894]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.11.21-07.44.16:051][894]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.11.21-07.44.16:051][894]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.11.21-07.44.16:051][894]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.11.21-07.44.16:051][894]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.11.21-07.44.16:051][894]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.11.21-07.44.16:051][894]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.11.21-07.44.16:051][894]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.11.21-07.44.16:051][894]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.11.21-07.44.16:051][894]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.11.21-07.44.16:051][894]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.11.21-07.44.16:051][894]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.11.21-07.44.16:054][894]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.11.21-07.44.16:055][894]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.11.21-07.44.16:055][894]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.11.21-07.44.16:055][894]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.11.21-07.44.16:056][894]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.11.21-07.44.16:056][894]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.11.21-07.44.16:056][894]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.11.21-07.44.16:056][894]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.11.21-07.44.16:056][894]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.11.21-07.44.16:056][894]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.11.21-07.44.16:056][894]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.11.21-07.44.16:056][894]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.11.21-07.44.16:157][894]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.11.21-07.44.16:257][894]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.11.21-07.44.16:257][894]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.11.21-07.44.16:257][894]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.11.21-07.44.16:257][894]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.11.21-07.44.16:257][894]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.11.21-07.44.16:257][894]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.11.21-07.44.16:258][894]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.11.21-07.44.16:258][894]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.11.21-07.44.16:258][894]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.11.21-07.44.16:258][894]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.11.21-07.44.16:258][894]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.11.21-07.44.16:258][894]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.11.21-07.44.16:258][894]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.11.21-07.44.16:258][894]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.11.21-07.44.16:258][894]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.11.21-07.44.16:258][894]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.11.21-07.44.16:258][894]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.11.21-07.44.16:258][894]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.11.21-07.44.16:258][894]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.11.21-07.44.16:258][894]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.11.21-07.44.16:258][894]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.11.21-07.44.16:258][894]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.11.21-07.44.16:258][894]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.11.21-07.44.16:258][894]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.11.21-07.44.16:258][894]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.11.21-07.44.16:258][894]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.11.21-07.44.16:259][894]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.11.21-07.44.16:259][894]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.11.21-07.44.16:259][894]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.11.21-07.44.16:259][894]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.11.21-07.44.16:261][894]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.11.21-07.44.16:261][894]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.11.21-07.44.16:261][894]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.11.21-07.44.16:261][894]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.11.21-07.44.16:261][894]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.11.21-07.44.16:261][894]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.11.21-07.44.16:261][894]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.11.21-07.44.16:261][894]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.11.21-07.44.16:261][894]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.11.21-07.44.16:261][894]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.11.21-07.44.16:261][894]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.11.21-07.44.16:261][894]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.11.21-07.44.16:261][894]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.11.21-07.44.16:261][894]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.11.21-07.44.16:261][894]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.11.21-07.44.16:261][894]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.11.21-07.44.16:265][894]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.21-07.44.16:329][894]LogDerivedDataCache: Shutdown
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.21-07.44.16:329][894]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.21-07.44.16:330][894]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.21-07.44.16:330][894]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.21-07.44.16:330][894]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.21-07.44.16:330][894]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.21-07.44.16:330][894]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.21-07.44.16:330][894]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.21-07.44.16:330][894]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.21-07.44.16:330][894]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.11.21-07.44.16:330][894]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.11.21-07.44.16:330][894]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.11.21-07.44.16:330][894]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.21-07.44.16:330][894]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.21-07.44.16:330][894]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.21-07.44.16:330][894]LogOnline: Display: Unloading online subsystem: NULL
+[2017.11.21-07.44.16:330][894]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.21-07.44.16:330][894]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.21-07.44.16:330][894]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.21-07.44.16:330][894]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD30560EE-48E4-9C8B-E57D-7CAC9C6860C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=fd97eb274c3c1f372e9689aefe378b94%7C791074bc29cb49668332301ab7c5063e%7Cafa898c5-4a6b-45d2-8f56-8c952e7bec3a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.21-07.44.16:354][894]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.21-07.44.16:356][894]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.21-07.44.16:356][894]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.21-07.44.16:356][894]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.21-07.44.16:356][894]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.21-07.44.16:356][894]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.21-07.44.16:356][894]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.21-07.44.16:356][894]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.21-07.44.16:358][894]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.21-07.44.16:358][894]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.21-07.44.16:358][894]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.21-07.44.16:358][894]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.21-07.44.16:358][894]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.21-07.44.16:358][894]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.21-07.44.16:358][894]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.21-07.44.16:358][894]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.21-07.44.16:358][894]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.21-07.44.16:358][894]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.21-07.44.16:358][894]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.21-07.44.16:360][894]LogExit: Exiting.
+[2017.11.21-07.44.16:373][894]Log file closed, 11/21/17 02:44:16

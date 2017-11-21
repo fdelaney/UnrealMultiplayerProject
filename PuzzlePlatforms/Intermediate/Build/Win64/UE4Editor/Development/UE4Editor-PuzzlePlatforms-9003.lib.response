@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-PuzzlePlatforms-9003.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\EpicGames\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\MovingPlatform.cpp.obj"
+"D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\PuzzlePlatforms.cpp.obj"
+"D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\MovingPlatform.gen.cpp.obj"
+"D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\PuzzlePlatforms.init.gen.cpp.obj"
+"E:\EpicGames\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\PCLaunch.rc.res"
+"E:\EpicGames\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\Dev\UnrealCourse\Multiplayer\UnrealMultiplayerProject\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms-9003.lib"

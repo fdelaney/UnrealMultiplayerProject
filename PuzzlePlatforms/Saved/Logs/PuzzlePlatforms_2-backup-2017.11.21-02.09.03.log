@@ -1,0 +1,231 @@
+﻿Log file open, 11/21/17 02:06:53
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: PuzzlePlatforms
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1448118779) SRandInit(-1448118779).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.155841
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  192.168.0.173 -server -log
+LogInit: Base directory: E:/EpicGames/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.21-07.06.53:738][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.21-07.06.53:739][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.21-07.06.53:760][  0]LogInit: Computer: FRANKENSTEIN-PC
+[2017.11.21-07.06.53:760][  0]LogInit: User: Nazthraak
+[2017.11.21-07.06.53:762][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.21-07.06.53:763][  0]LogInit: High frequency timer resolution =3.513584 MHz
+[2017.11.21-07.06.53:763][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.21-07.06.53:764][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.21-07.06.53:764][  0]LogMemory: Process Physical Memory: 278.70 MB used, 278.70 MB peak
+[2017.11.21-07.06.53:765][  0]LogMemory: Process Virtual Memory: 282.16 MB used, 282.16 MB peak
+[2017.11.21-07.06.53:765][  0]LogMemory: Physical Memory: 6753.52 MB used,  9573.36 MB free, 16326.88 MB total
+[2017.11.21-07.06.53:765][  0]LogMemory: Virtual Memory: 676.22 MB used,  9573.36 MB free, 134217728.00 MB total
+[2017.11.21-07.06.53:864][  0]LogInit: Using OS detected language (en-US).
+[2017.11.21-07.06.53:864][  0]LogInit: Using OS detected locale (en-US).
+[2017.11.21-07.06.53:867][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.21-07.06.54:242][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/Intermediate/Shaders/WorkingDirectory/15688/).
+[2017.11.21-07.06.54:242][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nazthraak/AppData/Local/Temp/UnrealShaderWorkingDir/4819ADA84E865B1C6313F49E4E5E919E/'.
+[2017.11.21-07.06.54:243][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.21-07.06.54:632][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.21-07.06.54:717][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/Nazthraak/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.21-07.06.54:718][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nazthraak/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.21-07.06.54:719][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.21-07.06.54:719][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.21-07.06.54:719][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.21-07.06.54:719][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.21-07.06.54:739][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.21-07.06.54:750][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nazthraak/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.21-07.06.55:149][  0]LogAssetRegistry: FAssetRegistry took 0.0034 seconds to start up
+[2017.11.21-07.06.55:208][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.045236 seconds
+[2017.11.21-07.06.55:448][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.21-07.06.55:478][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.21-07.06.55:508][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.21-07.06.55:538][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.21-07.06.55:569][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.21-07.06.55:599][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.21-07.06.55:630][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.21-07.06.55:660][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.21-07.06.55:686][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.21-07.06.55:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.21-07.06.55:745][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.21-07.06.55:774][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.21-07.06.55:803][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.21-07.06.55:833][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.21-07.06.55:862][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.21-07.06.55:921][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.21-07.06.55:921][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.21-07.06.55:942][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.21-07.06.56:005][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.21-07.06.56:040][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.21-07.06.56:081][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.21-07.06.56:111][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.21-07.06.56:140][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.21-07.06.56:170][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.21-07.06.56:170][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.21-07.06.56:425][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.21-07.06.56:592][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.21-07.06.56:613][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.21-07.06.56:613][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.21-07.06.56:614][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.21-07.06.56:614][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.21-07.06.56:614][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.21-07.06.56:717][  0]LogNetVersion: PuzzlePlatforms , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3987055464)
+[2017.11.21-07.06.56:808][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.21-07.06.57:273][  0]LogCollectionManager: Loaded 0 collections in 0.001164 seconds
+[2017.11.21-07.06.57:317][  0]LogFileCache: Scanning file cache for directory 'D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/Saved/Collections/' took 0.01s
+[2017.11.21-07.06.57:317][  0]LogFileCache: Scanning file cache for directory 'D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/Content/Developers/Nazthraak/Collections/' took 0.01s
+[2017.11.21-07.06.57:318][  0]LogFileCache: Scanning file cache for directory 'D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/Content/Collections/' took 0.01s
+[2017.11.21-07.06.57:318][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.21-07.06.57:319][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.001394 seconds (updated 0 objects)
+[2017.11.21-07.06.57:635][  0]SourceControl: Source control is disabled
+[2017.11.21-07.06.57:636][  0]SourceControl: Source control is disabled
+[2017.11.21-07.06.57:661][  0]SourceControl: Source control is disabled
+[2017.11.21-07.06.57:798][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.21-07.06.57:925][  0]LogOcInput: OculusInput pre-init called
+[2017.11.21-07.06.57:982][  0]LogUObjectArray: 37426 objects as part of root set at end of initial load.
+[2017.11.21-07.06.57:982][  0]LogUObjectAllocator: 8011760 out of 0 bytes used by permanent object pool.
+[2017.11.21-07.06.57:983][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.21-07.06.58:041][  0]LogEngine: Initializing Engine...
+[2017.11.21-07.06.58:062][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.21-07.06.58:062][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.21-07.06.58:155][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/Nazthraak/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.21-07.06.58:164][  0]LogInit: Texture streaming: Disabled
+[2017.11.21-07.06.58:177][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.21-07.06.58:257][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NormalText'. Using FTextBlockStyle defaults instead.
+[2017.11.21-07.06.58:258][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'SpinBox'. Using FSpinBoxStyle defaults instead.
+[2017.11.21-07.06.58:347][  0]LogInit: Display: Game Engine Initialized.
+[2017.11.21-07.06.58:348][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.21-07.06.58:433][  0]LogInit: Display: Starting Game.
+[2017.11.21-07.06.58:434][  0]LogNet: Browse: 192.168.0.173//Engine/Maps/Entry?Name=Player
+[2017.11.21-07.06.58:434][  0]LogLoad: Error: Failed to enter /Engine/Maps/Entry: Servers can't open network URLs. Please check the log for errors.
+[2017.11.21-07.06.58:434][  0]LogNet: Browse: /Engine/Maps/Entry?Name=Player
+[2017.11.21-07.06.58:435][  0]LogLoad: LoadMap: /Engine/Maps/Entry?Name=Player
+[2017.11.21-07.06.58:495][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.21-07.06.58:495][  0]LogMemory: Process Physical Memory: 658.05 MB used, 718.22 MB peak
+[2017.11.21-07.06.58:495][  0]LogMemory: Process Virtual Memory: 615.97 MB used, 683.04 MB peak
+[2017.11.21-07.06.58:496][  0]LogMemory: Physical Memory: 7148.29 MB used,  9178.59 MB free, 16326.88 MB total
+[2017.11.21-07.06.58:496][  0]LogMemory: Virtual Memory: 1127.32 MB used,  9178.59 MB free, 134217728.00 MB total
+[2017.11.21-07.06.58:496][  0]LogMemory: 
+[2017.11.21-07.06.58:496][  0]Allocator Stats for TBB: (not implemented)
+[2017.11.21-07.06.58:640][  0]LogAIModule: Creating AISystem for world Entry
+[2017.11.21-07.06.58:733][  0]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.21-07.06.58:733][  0]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.21-07.06.58:734][  0]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2017.11.21-07.06.58:734][  0]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.21-07.06.58:735][  0]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.11.21-07.06.58:738][  0]LogInit: WinSock: I am Frankenstein-PC (192.168.0.173:0)
+[2017.11.21-07.06.58:738][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.21-07.06.58:738][  0]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2017.11.21-07.06.58:741][  0]LogActorComponent: RegisterComponentWithWorld: (/Engine/Maps/Entry.Entry:PersistentLevel.WorldInfo_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.21-07.06.58:741][  0]LogActorComponent: RegisterComponentWithWorld: (/Engine/Maps/Entry.Entry:PersistentLevel.WorldInfo_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.21-07.06.58:741][  0]LogActorComponent: RegisterComponentWithWorld: (/Engine/Maps/Entry.Entry:PersistentLevel.WorldInfo_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.21-07.06.58:742][  0]LogWorld: Bringing World /Engine/Maps/Entry.Entry up for play (max tick rate 30) at 2017.11.21-02.06.58
+[2017.11.21-07.06.58:742][  0]LogWorld: Bringing up level for play took: 0.003510
+[2017.11.21-07.06.58:743][  0]LogLoad: Took 0.308363 seconds to LoadMap(/Engine/Maps/Entry)
+[2017.11.21-07.06.58:825][  0]LogLoad: (Engine Initialization) Total time: 6.25 seconds
+[2017.11.21-07.06.58:825][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.21-07.06.58:825][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.21-07.06.58:826][  0]LogExternalProfiler: Using external profiler: VSPerf

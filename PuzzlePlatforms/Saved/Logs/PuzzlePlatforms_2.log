@@ -1,0 +1,284 @@
+﻿Log file open, 11/21/17 02:11:22
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: PuzzlePlatforms
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-502344187) SRandInit(-502344187).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.155827
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap -server -log
+LogInit: Base directory: E:/EpicGames/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.21-07.11.22:951][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.21-07.11.22:951][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.21-07.11.22:962][  0]LogInit: Computer: FRANKENSTEIN-PC
+[2017.11.21-07.11.22:962][  0]LogInit: User: Nazthraak
+[2017.11.21-07.11.22:962][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.21-07.11.22:962][  0]LogInit: High frequency timer resolution =3.513584 MHz
+[2017.11.21-07.11.22:963][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.21-07.11.22:963][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.21-07.11.22:963][  0]LogMemory: Process Physical Memory: 278.62 MB used, 278.62 MB peak
+[2017.11.21-07.11.22:963][  0]LogMemory: Process Virtual Memory: 282.06 MB used, 282.06 MB peak
+[2017.11.21-07.11.22:963][  0]LogMemory: Physical Memory: 6661.39 MB used,  9665.48 MB free, 16326.88 MB total
+[2017.11.21-07.11.22:964][  0]LogMemory: Virtual Memory: 676.22 MB used,  9665.48 MB free, 134217728.00 MB total
+[2017.11.21-07.11.23:045][  0]LogInit: Using OS detected language (en-US).
+[2017.11.21-07.11.23:045][  0]LogInit: Using OS detected locale (en-US).
+[2017.11.21-07.11.23:048][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.21-07.11.23:412][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/Intermediate/Shaders/WorkingDirectory/10156/).
+[2017.11.21-07.11.23:412][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nazthraak/AppData/Local/Temp/UnrealShaderWorkingDir/BE1F6E6F4F9C4B8139D5738C28AF1239/'.
+[2017.11.21-07.11.23:413][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.21-07.11.23:795][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.21-07.11.23:877][  0]LogDerivedDataCache: Loaded boot cache 0.08s 91MB C:/Users/Nazthraak/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.21-07.11.23:877][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nazthraak/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.21-07.11.23:878][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.21-07.11.23:878][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.21-07.11.23:878][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.21-07.11.23:879][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.21-07.11.23:892][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.21-07.11.23:904][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nazthraak/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.21-07.11.24:052][  0]LogAssetRegistry: FAssetRegistry took 0.0035 seconds to start up
+[2017.11.21-07.11.24:109][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.042600 seconds
+[2017.11.21-07.11.24:382][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.21-07.11.24:412][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.21-07.11.24:445][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.21-07.11.24:475][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.21-07.11.24:506][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.21-07.11.24:536][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.21-07.11.24:567][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.21-07.11.24:597][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.21-07.11.24:622][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.21-07.11.24:651][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.21-07.11.24:680][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.21-07.11.24:709][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.21-07.11.24:738][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.21-07.11.24:767][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.21-07.11.24:797][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.21-07.11.24:855][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.21-07.11.24:855][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.21-07.11.24:876][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.21-07.11.24:939][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.21-07.11.24:958][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.21-07.11.24:987][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.21-07.11.25:017][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.21-07.11.25:047][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.21-07.11.25:075][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.21-07.11.25:075][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.21-07.11.25:329][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.21-07.11.25:513][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.21-07.11.25:538][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.21-07.11.25:538][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.21-07.11.25:538][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.21-07.11.25:539][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.21-07.11.25:539][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.21-07.11.25:640][  0]LogNetVersion: PuzzlePlatforms , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3987055464)
+[2017.11.21-07.11.25:731][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.21-07.11.26:223][  0]LogCollectionManager: Loaded 0 collections in 0.001127 seconds
+[2017.11.21-07.11.26:268][  0]LogFileCache: Scanning file cache for directory 'D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/Saved/Collections/' took 0.01s
+[2017.11.21-07.11.26:268][  0]LogFileCache: Scanning file cache for directory 'D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/Content/Developers/Nazthraak/Collections/' took 0.01s
+[2017.11.21-07.11.26:269][  0]LogFileCache: Scanning file cache for directory 'D:/Dev/UnrealCourse/Multiplayer/UnrealMultiplayerProject/PuzzlePlatforms/Content/Collections/' took 0.01s
+[2017.11.21-07.11.26:269][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.21-07.11.26:269][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.001429 seconds (updated 0 objects)
+[2017.11.21-07.11.26:685][  0]SourceControl: Source control is disabled
+[2017.11.21-07.11.26:687][  0]SourceControl: Source control is disabled
+[2017.11.21-07.11.26:721][  0]SourceControl: Source control is disabled
+[2017.11.21-07.11.26:857][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.21-07.11.26:980][  0]LogOcInput: OculusInput pre-init called
+[2017.11.21-07.11.27:067][  0]LogUObjectArray: 37426 objects as part of root set at end of initial load.
+[2017.11.21-07.11.27:067][  0]LogUObjectAllocator: 8011760 out of 0 bytes used by permanent object pool.
+[2017.11.21-07.11.27:068][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.21-07.11.27:135][  0]LogEngine: Initializing Engine...
+[2017.11.21-07.11.27:157][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.21-07.11.27:157][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.21-07.11.27:243][  0]LogDerivedDataCache: Saved boot cache 0.08s 91MB C:/Users/Nazthraak/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.21-07.11.27:253][  0]LogInit: Texture streaming: Disabled
+[2017.11.21-07.11.27:261][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.21-07.11.27:344][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NormalText'. Using FTextBlockStyle defaults instead.
+[2017.11.21-07.11.27:345][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'SpinBox'. Using FSpinBoxStyle defaults instead.
+[2017.11.21-07.11.27:434][  0]LogInit: Display: Game Engine Initialized.
+[2017.11.21-07.11.27:434][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.21-07.11.27:517][  0]LogInit: Display: Starting Game.
+[2017.11.21-07.11.27:517][  0]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Player
+[2017.11.21-07.11.27:518][  0]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Player
+[2017.11.21-07.11.27:540][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.21-07.11.27:541][  0]LogMemory: Process Physical Memory: 660.64 MB used, 722.06 MB peak
+[2017.11.21-07.11.27:541][  0]LogMemory: Process Virtual Memory: 614.20 MB used, 682.76 MB peak
+[2017.11.21-07.11.27:541][  0]LogMemory: Physical Memory: 7068.68 MB used,  9258.20 MB free, 16326.88 MB total
+[2017.11.21-07.11.27:542][  0]LogMemory: Virtual Memory: 1125.50 MB used,  9258.20 MB free, 134217728.00 MB total
+[2017.11.21-07.11.27:542][  0]LogMemory: 
+[2017.11.21-07.11.27:542][  0]Allocator Stats for TBB: (not implemented)
+[2017.11.21-07.11.27:783][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.21-07.11.27:786][  0]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.21-07.11.27:786][  0]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.21-07.11.27:786][  0]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2017.11.21-07.11.27:786][  0]LogTemp: Display: ParseSettings for GameNetDriver
+[2017.11.21-07.11.27:787][  0]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.11.21-07.11.27:789][  0]LogInit: WinSock: I am Frankenstein-PC (192.168.0.173:0)
+[2017.11.21-07.11.27:789][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.21-07.11.27:790][  0]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2017.11.21-07.11.27:793][  0]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 30) at 2017.11.21-02.11.27
+[2017.11.21-07.11.27:794][  0]LogWorld: Bringing up level for play took: 0.003128
+[2017.11.21-07.11.27:804][  0]LogLoad: Took 0.285293 seconds to LoadMap(/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap)
+[2017.11.21-07.11.27:883][  0]LogLoad: (Engine Initialization) Total time: 6.14 seconds
+[2017.11.21-07.11.27:883][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.21-07.11.27:884][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.21-07.11.27:884][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.21-07.11.48:751][628]LogNet: NotifyAcceptingConnection accepted from: 192.168.0.173:51734
+[2017.11.21-07.11.48:751][628]LogHandshake: SendConnectChallenge. Timestamp: 20.866411, Cookie: 209058227002038157086220182204120122056249076127057203057105
+[2017.11.21-07.11.49:242][643]LogNet: NotifyAcceptingConnection accepted from: 192.168.0.173:51734
+[2017.11.21-07.11.49:242][643]LogHandshake: SendChallengeAck. InCookie: 209058227002038157086220182204120122056249076127057203057105
+[2017.11.21-07.11.49:243][643]LogNet: Server accepting post-challenge connection from: 192.168.0.173:51734
+[2017.11.21-07.11.49:243][643]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.21-07.11.49:244][643]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 11/21/17 02:11:49, [UNetConnection] RemoteAddr: 192.168.0.173:51734, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.11.21-07.11.49:245][643]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 192.168.0.173:51734, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.11.21-07.11.49:245][643]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2017.11.21-07.11.49:245][643]LogNet: Remote platform little endian=1
+[2017.11.21-07.11.49:245][643]LogNet: This platform little endian=1
+[2017.11.21-07.11.49:245][643]LogNetVersion: PuzzlePlatforms 1.0.0.0, NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3024838196)
+[2017.11.21-07.11.49:308][645]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Player userId: Invalid
+[2017.11.21-07.11.49:374][647]LogNet: Client netspeed is 10000
+[2017.11.21-07.11.49:638][655]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Player?SplitscreenCount=1
+[2017.11.21-07.11.49:641][655]LogNet: Join succeeded: Player
+[2017.11.21-07.12.53:790][583]LogNet: NotifyAcceptingConnection accepted from: 192.168.0.173:62532
+[2017.11.21-07.12.53:790][583]LogHandshake: SendConnectChallenge. Timestamp: 85.904793, Cookie: 148249239244112162112186173062084132113228231065075240027152
+[2017.11.21-07.12.54:287][598]LogNet: NotifyAcceptingConnection accepted from: 192.168.0.173:62532
+[2017.11.21-07.12.54:287][598]LogHandshake: SendChallengeAck. InCookie: 148249239244112162112186173062084132113228231065075240027152
+[2017.11.21-07.12.54:288][598]LogNet: Server accepting post-challenge connection from: 192.168.0.173:62532
+[2017.11.21-07.12.54:289][598]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.21-07.12.54:289][598]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 11/21/17 02:12:54, [UNetConnection] RemoteAddr: 192.168.0.173:62532, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.11.21-07.12.54:289][598]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 192.168.0.173:62532, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.11.21-07.12.54:320][599]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2017.11.21-07.12.54:320][599]LogNet: Remote platform little endian=1
+[2017.11.21-07.12.54:321][599]LogNet: This platform little endian=1
+[2017.11.21-07.12.54:353][600]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Player userId: Invalid
+[2017.11.21-07.12.54:386][601]LogNet: Client netspeed is 10000
+[2017.11.21-07.12.54:618][608]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Player?SplitscreenCount=1
+[2017.11.21-07.12.54:619][608]LogNet: Join succeeded: Player
+[2017.11.21-07.13.11:259][109]LogNet: NotifyAcceptingConnection accepted from: 192.168.0.173:62866
+[2017.11.21-07.13.11:259][109]LogHandshake: SendConnectChallenge. Timestamp: 103.374191, Cookie: 172060214213051169167059105062102219006119099119201176237237
+[2017.11.21-07.13.11:793][125]LogNet: NotifyAcceptingConnection accepted from: 192.168.0.173:62866
+[2017.11.21-07.13.11:793][125]LogHandshake: SendChallengeAck. InCookie: 172060214213051169167059105062102219006119099119201176237237
+[2017.11.21-07.13.11:794][125]LogNet: Server accepting post-challenge connection from: 192.168.0.173:62866
+[2017.11.21-07.13.11:795][125]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.11.21-07.13.11:795][125]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 11/21/17 02:13:11, [UNetConnection] RemoteAddr: 192.168.0.173:62866, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.11.21-07.13.11:795][125]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 192.168.0.173:62866, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.11.21-07.13.11:859][127]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2017.11.21-07.13.11:859][127]LogNet: Remote platform little endian=1
+[2017.11.21-07.13.11:861][127]LogNet: This platform little endian=1
+[2017.11.21-07.13.11:892][128]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Player userId: Invalid
+[2017.11.21-07.13.11:925][129]LogNet: Client netspeed is 10000
+[2017.11.21-07.13.12:157][136]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Player?SplitscreenCount=1
+[2017.11.21-07.13.12:158][136]LogNet: Join succeeded: Player
+[2017.11.21-07.15.37:082][487]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2017.11.21-07.15.37:082][487]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.0.173:62866, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2
+[2017.11.21-07.15.37:083][487]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.0.173:62866, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2, Channels: 14, Time: 2017.11.21-07.15.37
+[2017.11.21-07.15.37:083][487]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.0.173:62866, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2
+[2017.11.21-07.15.38:645][535]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2017.11.21-07.15.38:645][535]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.0.173:62532, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2017.11.21-07.15.38:646][535]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.0.173:62532, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, Channels: 12, Time: 2017.11.21-07.15.38
+[2017.11.21-07.15.38:646][535]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.0.173:62532, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2017.11.21-07.15.40:172][581]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2017.11.21-07.15.40:172][581]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.0.173:51734, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0
+[2017.11.21-07.15.40:173][581]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.0.173:51734, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, Channels: 10, Time: 2017.11.21-07.15.40
+[2017.11.21-07.15.40:173][581]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.0.173:51734, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0
